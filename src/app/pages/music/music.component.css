@@ -1,0 +1,30 @@
+/* Texto placeholder */
+input::placeholder {
+  color: #b0b0b0; /* Gris claro */
+  opacity: 1;    /* Asegura que sea visible */
+  font-weight: 500;
+}
+
+/* Botón Buscar */
+.search-btn {
+    background-color: #cc0fe0;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #a10db5;
+  }
+  
+  /* Botón Audius */
+  .audius-btn {
+    background-color: #cc0fe0;
+    border-radius: 0 0 5px 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .audius-btn:hover {
+    background-color: #a10db5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(204, 15, 224, 0.4);
+  }

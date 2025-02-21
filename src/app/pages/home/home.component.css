@@ -1,0 +1,31 @@
+body {
+    background-color: #1b1b1b;
+  }
+
+  #explore-btn {
+    background-color: #cc0fe0;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #explore-btn:hover {
+    background-color: #a10db5;
+  }
+
+  .btn-primary {
+    background-color: #f04f88;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #d13f75;
+  }
+
+  .card {
+    border: none;
+    border-radius: 12px;
+  }
+
+  footer img {
+    margin-top: 10px;
+  }
